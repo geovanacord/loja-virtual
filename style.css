@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'inter', sans-serif ;
+}
+
+
+.cabecalho{
+    background-color: #7C71FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+} 
+
+.li{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.secao-imagem{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.info-usuario{
+    color: #fff;
+    margin-left: 30px;
+}
+
+.name{
+    text-transform: uppercase;
+
+}
+
+.lista-menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+
+  }
+
+  .secao-colecao {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #D7E2FF;;
+    color: #200065;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  h1{
+    font-family: 'Abril Fatface', serif;
+}
+
+.sub-titulo{
+    font-family: 'inter';
+}
+
+  
+  .link-site {
+    color: #0075ff;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    font-family: 'inter';
+  }
+
+.secao-clientes{
+  background-color: #AEBFEB;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.topico-clientes {
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Abril Fatface', serif;
+    color: #200065;
+  }
+
+  h4{
+    font-size: 10px;
+  }
+
+  .container{
+    margin: 56px;
+    display: inline-block;
+    justify-content: center;
+    font-size: 24px;
+    align-items: center;
+    text-align: center;
+    background-color: #D4E0FF;
+    border-width: 10px;
+    border-style: solid;
+    width: 300px;
+    height: 200px;
+    border-color: #D4E0FF;
+    flex-shrink: 0;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+  }
+
+  .avaliacao{
+    background-color: #AEBFEB;
+    width: 1349px;
+    height: 370px;
+    flex-shrink: 0;
+  }
+
+  .secao-pedidos {
+    text-align: center;
+    align-items: center;
+    font-size: 32px;
+    background-color: #D7E2FF;
+    display: center;
+    justify-content: center;
+  }
+
+  .parte-pedidos{
+    border: solid;
+    width: 1349px;
+  }
+
+  .nomeclatura{
+    background-color: #7C71FF;
+  }
+
+  .faleconosco{
+    background-color: #AEBFEB;
+  }
+.rodape {
+    background-color: #3F3F3F;
+    height: 50px;
+    flex-shrink: 0;
+    align-items: center;
+    color: #fff;
+    display: flex;
+  }
+
